@@ -35,7 +35,20 @@ public class PageController {
     public String servicesPage(){
         System.out.println("Services page Loading"); 
         return "services";
-    }
-                                                         
+    } // contact page
 
+    @GetMapping("/contact")
+    public String contact() {
+        return new String("contact");
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return new String("login");
+    }
+
+    @GetMapping("/register")
+    public String register() {
+        return "register";
+    }
 }
