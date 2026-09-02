@@ -1,4 +1,4 @@
-onsole.log("Script loaded");
+console.log("Script loaded");
 
 // change theme work
 let currentTheme = getTheme();
