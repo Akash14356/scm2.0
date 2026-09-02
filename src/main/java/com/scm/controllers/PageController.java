@@ -9,17 +9,7 @@ public class PageController {
 
 
     //about route 
-    @RequestMapping("/about")
-    public String aboutPage(Model model){
-        model.addAttribute("isLogin", false);
-        System.out.println("About page Loading"); 
-        return "about";
-    }
-    @RequestMapping("/services")
-    public String servicesPage(){
-        System.out.println("Services page Loading"); 
-        return "services";
-    }
+   
 
 
     // @RequestMapping("/home")
