@@ -41,7 +41,7 @@ target/
 .idea/
 *.iml
 
-# VS Code
+# VS Code                                  
 .vscode/
 
 # Environment / secrets
