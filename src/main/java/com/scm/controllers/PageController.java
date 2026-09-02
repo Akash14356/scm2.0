@@ -12,16 +12,16 @@ public class PageController {
    
 
 
-    // @RequestMapping("/home")
-    // public String home(Model model){
-    //     System.out.println("Home page ");
+    @RequestMapping("/home")
+    public String home(Model model){
+        System.out.println("Home page ");
 
-    //     //sending data to the view
-    //     model.addAttribute("name", "Akash");
-    //     model.addAttribute("youtubeChannel", "My YouTube Channel");
-    //     model.addAttribute("github", "github.com/akash");
-    //     model.addAttribute("myYoutubechannelLink","https://www.youtube.com/@AGEngineeringMantra");
-    //     return "home";
-    // }
+        //sending data to the view
+        model.addAttribute("name", "Akash");
+        model.addAttribute("youtubeChannel", "My YouTube Channel");
+        model.addAttribute("github", "github.com/akash");
+        model.addAttribute("myYoutubechannelLink","https://www.youtube.com/@AGEngineeringMantra");
+        return "home";
+    }
 
 }
