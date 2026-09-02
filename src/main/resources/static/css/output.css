@@ -946,6 +946,16 @@ video {
   --tw-space-x-reverse: 1;
 }
 
+.dark\:bg-gray-900:where(.dark, .dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.dark\:text-white:where(.dark, .dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:dark\:hover\:bg-transparent:hover:where(.dark, .dark *) {
     background-color: transparent;
