@@ -3,7 +3,7 @@ console.log("Script loaded");
 // change theme work
 let currentTheme = getTheme();
 //initial -->
-
+      
 document.addEventListener("DOMContentLoaded", () => {
   changeTheme();
 });
@@ -47,7 +47,7 @@ function changePageTheme(theme, oldTheme) {
   setTheme(currentTheme);
   //remove the current theme
   document.querySelector("html").classList.remove(oldTheme);
-  //set the current theme
+  //set the current theme 
   document.querySelector("html").classList.add(theme);
 
   // change the text of button
